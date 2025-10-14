@@ -5,13 +5,11 @@ int main(){
     int pontuacoes[4];
 
     printf("Insira 5 nomes de jogadores:\n");
-    scanf("%s ", &jogadores[0][50]);
-    scanf("%s ", &jogadores[1][50]);
-    scanf("%s ", &jogadores[2][50]);
-    scanf("%s ", &jogadores[3][50]);
-    scanf("%s ", &jogadores[4][50]);
+    for (int i = 0; i < 5; i++){
+        scanf("%s", jogadores[i]);
+    }
 
-    printf("%s", jogadores);
+    printf("%s\n", jogadores); //um unico print f não imprime todos os elementos do vetor. é necessario usar um loop 
 
     
     return 0;
