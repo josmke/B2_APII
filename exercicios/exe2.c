@@ -18,7 +18,6 @@ void bsort(int v[], int n){
 
     for (i = 0; i < n-1; i++){
 
-        int trocou = 0;
 
         for (j = 0; j < n - 1 - i; j++){
            if (v[j] > v[j+1]){
@@ -42,7 +41,7 @@ int main(){
     int v[n];
     for (int i = 0; i < n; i++){
 
-      v[i] = rand() % (n*10) +1;
+      v[i] = rand() % 101;
                       
     }
     mostrar(v, n);
