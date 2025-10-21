@@ -1,21 +1,14 @@
 #include <stdio.h>
-#include <stdbool.h>
 
 void inverte_vetor(int v[], int n){
-    for (int i = 1; i < n; i++){
-        int guardar_elemento = v[i];
-        int j = i - 1;
-        bool encontrou = false;
-       while (j >= 0 && !encontrou){
-            if (v[j] < guardar_elemento){
-                v[j + 1] = v[j];
-                j--;
-            }
-            else{
-                encontrou = true;
-            }        
-       }
-       v[j + 1] = guardar_elemento;
+    int temp;
+    int cont = n - 1;
+    int divisor = n / 2;
+    for (int i = 0; i < divisor; i++){
+        temp = v[i];
+        v[i] = v[cont];
+        v[cont] = temp;
+        cont--;
     }
 }
 
