@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/workspaces/B2_APII/EX_09_10",
-      "program": "/workspaces/B2_APII/EX_09_10/build/Debug/outDebug",
+      "cwd": "/workspaces/B2_APII/C/exercicios_01/Exercicios_02",
+      "program": "/workspaces/B2_APII/C/exercicios_01/Exercicios_02/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
