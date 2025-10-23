@@ -1,3 +1,5 @@
 # B2_APII
 
-Esse repositório é onde eu faço e gurado todos os meus exercicios de prática da linguagem C na faculdade.
+- Repositório para praticar programação e git. Com exercicíos da faculdade e da internet.
+- Atualmente praticando a linguagem C, Python e Java.
+- Feito para guardar todos os códigos e exe que eu já fiz.
