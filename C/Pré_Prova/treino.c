@@ -24,7 +24,7 @@ void selectionsort(int v[], int n){
         }
         if (min != i){
             temp = v[i + 1];
-            v[i + 1] = v[min]
+            v[i + 1] = v[min];
 
         }
     }
